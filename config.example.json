@@ -1,0 +1,5 @@
+{
+  "TenantId": "<your-tenant-id-guid>",
+  "ClientId": "<your-app-registration-client-id-guid>",
+  "SecretFolder": "EntraMonthlyAudit"
+}

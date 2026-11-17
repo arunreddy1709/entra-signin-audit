@@ -1,0 +1,23 @@
+# Tenant-specific configuration (copy config.example.json)
+config.json
+
+# Collected data, state, logs and reports - never commit sign-in data
+06_Scheduler_Test/
+07_Weekly_Collector/
+Shared_Reports/
+*.log
+*.csv
+*.xlsx
+*.bak
+
+# Secrets / certificates, just in case
+*.xml
+*.cer
+*.pfx
+*.pem
+*.key
+
+# Editor / OS noise
+.vscode/
+Thumbs.db
+desktop.ini
